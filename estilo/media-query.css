@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+ Romã Vermelho – #D9534F
+ Rosa pêssego - #F7A68E
+ Verde folha - #6BA368 
+ Bege Neutro – #EADBC8
+ Marrom Amadeirado – #8B5E3C
+ Vermelho Tapete – #A22B2B
+ 
+ */
+
+
+
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+         body{   
+          background-image: linear-gradient(to top, #A22B2B,#EADBC8 );
+        }
+        section#login{  
+            width: 80vw;
+        }
+        section div#img{    
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+        section div#formulario{ 
+            float: right;
+            width: 49%;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 40px;
+        }
+
+    
+}
+
+@media  screen and (min-width: 992px) {
+        body{   
+          background-image: linear-gradient(to top, #D9534F, #EADBC8);
+        }
+        section#login{  
+            width: 950px;
+        }
+        section div#img{    
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+        section div#formulario{ 
+            float: right;
+            width: 50%;
+            padding-top: 30px;
+        }
+    
+}
