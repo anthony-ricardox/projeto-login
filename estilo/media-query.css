@@ -18,6 +18,7 @@
         }
         section#login{  
             width: 80vw;
+            height: 390px;
         }
         section div#img{    
             float: left;
@@ -29,7 +30,7 @@
             width: 49%;
             padding-left: 5px;
             padding-right: 5px;
-            padding-top: 40px;
+            padding-top: 50px;
         }
 
     
@@ -41,6 +42,7 @@
         }
         section#login{  
             width: 990px;
+            height: 390px;
         }
         section div#img{    
             float: right;
