@@ -48,15 +48,11 @@ section#login{
     
     
 }
-section#login div.campo{    
-    background-color: #F7A68E ;
-    text-align: center;
-    
-}
+
 
 section div#img{    
     display: block;
-    background: #6BA368 url(../imagens/pexels.jpg) no-repeat;
+    background:  url(../imagens/pexels.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center center;
@@ -78,5 +74,76 @@ section div#formulario p{
     text-align: justify;
     text-align: center;
     font-size:14px;  
+    
 }
+
+form > div.campo{ 
+    display: block;   
+    background-color:#416340 ;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+     
+}
+
+div.campo > label{  
+    display: none;
+}
+
+div.campo input[type=password], div.campo input[type=email]{ 
+   padding: 5px; 
+   display: inline-block; 
+   border-radius: 5px;
+   border: none;
+}
+
+
+
+form input[type=submit]{    
+    display: block;
+    background-color: #D9534F;
+    color: black;
+    width: 90%;
+    height: 35px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+form input[type=submit]:hover{  
+    background-color: #A22B2B ;
+
+}
+
+
+
+form a.botao{   
+    display: block;
+    background-color:  white; 
+    color: rgb(0, 0, 255);
+   text-decoration: none;
+   text-align: center;
+   width: 90%;
+   height: 35px;
+   margin: auto;
+   margin-top: 10px;
+   padding-top: 3px;
+   padding-bottom: 10px;
+   border: 1px solid #F7A68E;
+   border-radius: 5px;
+  
+}
+ form a.botao:hover{    
+    background-color: #F7A68E;
+ }
+
+ form a.botao span{ 
+    font-size: 1em;
+ }
+
 
