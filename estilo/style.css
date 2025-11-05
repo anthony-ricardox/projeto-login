@@ -24,15 +24,15 @@ body, html{
      
 }
 main{   
-    position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section#login{  
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    
     
     background-color: white;
     width: 300px;
@@ -40,8 +40,7 @@ section#login{
 
     border-radius: 10px;
     overflow: hidden;
-
-    transform: translate(-50%,-50%);
+    
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -56,8 +55,9 @@ section div#img{
     height: 200px;
     background-size: cover;
     background-position: center center;
-    
+    opacity: 90%;  
 }
+
 
 section div h1{ 
     text-align: center;
